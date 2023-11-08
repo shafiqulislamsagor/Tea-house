@@ -2108,6 +2108,14 @@ video {
   line-height: 2.75rem;
 }
 
+.leading-\[3rem\] {
+  line-height: 3rem;
+}
+
+.leading-\[3\.4rem\] {
+  line-height: 3.4rem;
+}
+
 .text-\[\#1C1C1C\] {
   --tw-text-opacity: 1;
   color: rgb(28 28 28 / var(--tw-text-opacity));
