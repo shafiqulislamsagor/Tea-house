@@ -707,6 +707,10 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.mb-14 {
+  margin-bottom: 3.5rem;
+}
+
 .mb-\[-10px\] {
   margin-bottom: -10px;
 }
@@ -747,8 +751,24 @@ video {
   margin-top: 2rem;
 }
 
-.mb-14 {
-  margin-bottom: 3.5rem;
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .box-border {
@@ -858,10 +878,6 @@ video {
   height: 6rem;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
 .h-\[444px\] {
   height: 444px;
 }
@@ -872,6 +888,10 @@ video {
 
 .h-\[90px\] {
   height: 90px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-36 {
@@ -2124,6 +2144,11 @@ video {
   line-height: 1.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2218,6 +2243,10 @@ video {
 
 .leading-\[3\.4rem\] {
   line-height: 3.4rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
 }
 
 .text-\[\#1C1C1C\] {
@@ -2638,6 +2667,10 @@ video {
     padding-right: 180px;
   }
 
+  .sm\:text-center {
+    text-align: center;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -2690,6 +2723,10 @@ video {
     padding-right: 1.25rem;
   }
 
+  .md\:text-center {
+    text-align: center;
+  }
+
   .md\:text-\[3\.3rem\] {
     font-size: 3.3rem;
   }
@@ -2704,9 +2741,9 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .lg\:my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .lg\:my-7 {
@@ -2714,9 +2751,12 @@ video {
     margin-bottom: 1.75rem;
   }
 
-  .lg\:my-6 {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
   }
 
   .lg\:h-14 {
@@ -2743,20 +2783,12 @@ video {
     width: 14rem;
   }
 
-  .lg\:w-\[86\] {
-    width: 86;
+  .lg\:w-\[68\%\] {
+    width: 68%;
   }
 
   .lg\:w-\[86\%\] {
     width: 86%;
-  }
-
-  .lg\:w-\[72\%\] {
-    width: 72%;
-  }
-
-  .lg\:w-\[68\%\] {
-    width: 68%;
   }
 
   .lg\:grid-cols-2 {
@@ -2779,6 +2811,10 @@ video {
 
   .lg\:pl-\[88px\] {
     padding-left: 88px;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-2xl {
